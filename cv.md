@@ -30,9 +30,8 @@ function multiply(a, b){
 
 * **University and College:**
 
- * Institute of Entrepreneurial Activity - Economist
-
- * Branch of BSEU” Minsk Trade College” - Food service technician
+  * Institute of Entrepreneurial Activity - Economist
+  * Branch of BSEU” Minsk Trade College” - Food service technician
 
 * **Courses:**
   * GeekBrains: HTML/CSS3
