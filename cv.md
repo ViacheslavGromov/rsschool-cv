@@ -2,7 +2,7 @@
 
 ## Contacts
 * Email: slavagromov123@gmail.com
-* Linkedin: [https://www.linkedin.com/in/viacheslav-gromov-46079b1a1/] (Viacheslav Gromov)
+* Linkedin: Viacheslav Gromov
 * Tel: +375447359959
 
 ## About myself
