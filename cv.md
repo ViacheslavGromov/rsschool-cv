@@ -9,7 +9,7 @@
 
  I like the idea of creating something and I decided to go to frontend, because I can create and see the result immediately, influence it.
 
- ## Skills and Proficiency
+## Skills and Proficiency
 
 * HTML5, CSS3
 * JavaScript Basics
