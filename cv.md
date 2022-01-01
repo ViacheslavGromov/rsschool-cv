@@ -22,6 +22,30 @@ function multiply(a, b){
   return a * b;
 }
 ```
+## Work experience
+
+* Foreman of the production site for the manufacture of plastic products - (2017-2021)
+
+## Education 
+
+* **University and College:**
+
+ * Institute of Entrepreneurial Activity - Economist
+
+ * Branch of BSEU” Minsk Trade College” - Food service technician
+
+* **Courses:**
+  * GeekBrains: HTML/CSS3
+  * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+
+## Languages
+
+* English - A2
+* Russian - Native
+
+
+
+
 
 
 
