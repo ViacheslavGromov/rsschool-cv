@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://ViacheslavGromov.github.io/rsschool-cv/ 

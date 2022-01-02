@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/Roboto.ttf");
+   }
+
+h2,h3,h4{
+    margin-bottom: 0px;
+}
+
+body{
+
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#454040
+    
+}
+
+.main{
+    display: flex;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+/*******
+*******ASIDE*********
+******** */
+.aside{
+    background-color: #c8c7c6;
+    padding: 1.5em;
+}
+.dirtyhack {
+    position: absolute;
+    margin-top: -99999px;
+}
+.contacts h2{
+    text-align: left;
+  
+}
+
+.line-grey{
+    height: 1px;
+    width: 100%;
+    background-color:#454040;
+}
+
+.phone, .email, .discord, .linkedin{
+
+    display: flex;
+    padding-left: 0px;
+    list-style-type: none;
+    
+}
+.phone a, .email a, .discord a, .linkedin a{
+    text-decoration: none;
+    color:#454040;
+    padding-left: 5px;
+}
+.phone a:hover, .email a:hover, .discord a:hover, .linkedin a:hover, .works a:hover{
+    border-bottom: 1px solid #000000;
+    color:#000000;
+}
+
+.skills, .languages, .work-examples{
+    margin-top: 2em;
+}
+
+.works a{
+    text-decoration: none;
+    color:#454040;   
+}
+
+/* **************
+****ABOUTME*********
+************** */
+
+.aboutme{
+    background-color:#f3ebeb;
+    width: 800px;
+    padding: 1.5em;
+}
+
+.nav-list{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 0;
+    list-style-type: none;
+}
+.nav-list a{
+    text-decoration: none;
+    color:#454040;
+}
+
+.nav-list a:hover{
+    border-bottom: 1px solid #000000;
+    color:#000000;
+}
+
+.cv-name h1{
+    margin-top: 2.5em; 
+}
+
+.about-myself{
+    margin-top: 5em;   
+}
+
+.bold{
+    font-weight: bold;
+}
+.work-experience, .education, .code-example{
+    margin-top: 3em;
+}
+.work-description{
+    display: flex;
+    margin-top: 1em;
+   
+}
+.highest, .average{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.course{
+    margin-top: 1em;
+}
+
+
+.code{
+    background-color:#ebdace;
+}
+
+/* ********
+****FOOTER****
+********* */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#969595;
+    color: #000000;
+    font-weight: 600;
+}
+
+        
+
