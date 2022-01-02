@@ -1,14 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV</title>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/img/cv.ico">
 </head>
 <body>
-    <h1>My CV</h1>
-    <img src="cv photo.jpg" alt="photo">
-</body>
+<main class="main">
+<section class="aside">
+    <h2 class="dirtyhack">aside</h2>
+    <div class="cv-photo"><img src="assets/img/cv-photo.jpg" alt="ViacheslavGromov">
+    </div>
+    <article id="link-contacts" class="contacts">
+    <h2>Contacts</h2>
+        <div class="line-grey"></div>
+        <ul class="phone">
+            <li class="phone-icon"><img src="assets/img/phone-icon.png" alt="phone"></li>
+            <li class="phone-number"><a href="tel:+375447359959">+375447359959</a></li>
+        </ul>
+    <ul class="email">
+        <li class="email-icon"><img src="assets/img/gmail-icon.png" alt="gmail">
+    </li>
+    <li class="email-address"><a href="mailto:slavagromov123@gmail.com">slavagromov123@gmail.com</a>
+    </li>
+</ul>
+<ul class="discord">
+    <li class="discord-icon"><img src="assets/img/discord-icon.png" alt="discord"></li>
+    <li class="discord-link"><a href="https://discord.gg/ZqT4cdFH">SlavaGromov#8828</a></li>
+</ul>
+<ul class="linkedin">
+    <li class="linkedin-icon"><img src="assets/img/linkedin-icon.png" alt="linkedin"></li>
+    <li class="linkedin-link"><a href="https://www.linkedin.com/in/viacheslav-gromov-46079b1a1/">ViacheslavGromov</a></li>
+</ul>
+</article>
+<article id="link-skills" class="skills">
+    <h2>Skills</h2>
+    <div class="line-grey"></div>
+    <ul class="skills-list">
+        <li>HTML5, CSS3</li>
+        <li>JavaScript Basics</li>
+        <li>Git, GitHub</li>
+        <li>VS Code</li>
+    </ul>
+</article>
+
+<article class="languages">
+    <h2>Languages</h2>
+    <div class="line-grey"></div>
+    <ul class="languages-list">
+        <li>English - A2</li>
+        <li>Russian - Native</li> 
+    </ul>
+</article>
+
+<article class="work-examples">
+    <h2>Work examples</h2>
+    <div class="line-grey"></div>
+    <ul class="works">
+        <li class="works-cv"><a href="https://ViacheslavGromov.github.io/rsschool-cv/">CV</a></li>
+        
+    </ul>
+</article>
+
+</section>
+
+<section class="aboutme">
+
+    <header class="header">
+    <nav>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#link-contacts">Contacts</a></li>
+            <li class="nav-item"><a href="#link-skills">Skills</a></li>
+            <li class="nav-item"><a href="#link-work-experience">Work experience</a></li>
+        </ul>
+    </nav>
+    <div class="cv-name"><h1>Viacheslav Gromov</h1>
+    <h4>Front-end Developer</h4>
+    </div>
+    <div class="line-grey"></div>
+</header>
+
+<article class="about-myself">
+<h2>About myself</h2>
+<div class="line-grey"></div>
+<p>I like the idea of creating something and I decided to go to frontend, because I can create and see the result immediately, influence it.</p>
+</article>
+
+<article id="link-work-experience" class="work-experience">
+<h2>Work experience</h2>
+<div class="line-grey"></div>
+<div class="work-description">
+<div><span class="bold"> 09/2017 - present</span></div>
+<div><span class="bold">Posmedia Company</span></div>
+
+<div><span class="bold">Foreman of the production site for the manufacture of plastic products</span></div>
+</div>
+
+
+</article>
+
+<article class="education">
+    <h2>Education</h2>
+    <div class="line-grey"></div>
+    <div class="education-description">
+        <div class="highest">
+        <div><span class="bold">2015 - 2018</span></div>
+        <div><span class="bold">Institute of Entrepreneurial Activity</span></div>
+    
+        <div><span class="bold">Economist</span></div>
+    </div>
+
+    <div class="average">
+        <div><span class="bold">2011 - 2015</span></div>
+        <div><span class="bold">Branch of BSEU " Minsk Trade College "</span></div> 
+        <div><span class="bold">Cook</span></div></div>
+    </div>
+    <h3>Courses:</h3>
+    <div class="line-grey"></div>
+    <div class="courses"></div>
+    <div class="course"><span class="bold"> GeekBrains: HTML/CSS3</span></div>
+    <div class="course"><span class="bold">RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</span></div>
+      
+</article>
+
+<article class="code-example">
+    <h2>Code example</h2>
+    <div class="line-grey"></div>
+   <pre class="code">
+    function multiply(a, b){
+    return a * b;
+  }
+</pre> 
+    </article>
+
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-link"><a href="https://github.com/ViacheslavGromov" ><img src="assets/img/github-icon.svg" alt="github" width="40" height="40"></a></div>
+    <p>2022</p>
+
+    <div class="footer-link"> <a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" alt="rsschool-icon" width="40" height="40"></a></div>
+  
+</footer>
+
+</body> 
 </html>
