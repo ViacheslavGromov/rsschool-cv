@@ -12,10 +12,7 @@ h2,h3,h4{
 
 body{
 
-    /* прижать к низу footer      display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-    
+
     max-width: 1024px;
     margin: 0 auto;
     padding: 2em;
@@ -42,7 +39,10 @@ html {
     background-color: #c8c7c6;
     padding: 1.5em;
 }
-
+.dirtyhack {
+    position: absolute;
+    margin-top: -99999px;
+}
 .contacts h2{
     text-align: left;
   
@@ -86,7 +86,7 @@ html {
 ****ABOUTME*********
 ************** */
 .aboutme{
-    background-color:#fbfbfb;
+    background-color:#f3ebeb;
     width: 800px;
     padding: 1.5em;
 }
@@ -113,12 +113,12 @@ html {
 }
 
 .cv-name h1{
-    margin-top: 2em; 
+    margin-top: 2.5em; 
 }
 
 
 .about-myself{
-    margin-top: 2em;
+    margin-top: 5em;
     
 }
 
@@ -126,7 +126,7 @@ html {
     font-weight: bold;
 }
 .work-experience, .education, .code-example{
-    margin-top: 2em;
+    margin-top: 3em;
 }
 .work-description{
     display: flex;
@@ -146,7 +146,23 @@ html {
 
 
 .code{
-    background-color:#b98c6f;
+    background-color:#ebdace;
 }
 
+
+/* ********
+****FOOTER****
+********* */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#969595;
+    color: #000000;
+    font-weight: 600;
+
+
+}
+
+        
 
