@@ -12,7 +12,6 @@ h2,h3,h4{
 
 body{
 
-
     max-width: 1024px;
     margin: 0 auto;
     padding: 2em;
@@ -30,8 +29,6 @@ html {
     scroll-behavior: smooth; 
   }
 
-
-
 /*******
 *******ASIDE*********
 ******** */
@@ -47,7 +44,6 @@ html {
     text-align: left;
   
 }
-
 
 .line-grey{
     height: 1px;
@@ -81,20 +77,15 @@ html {
     color:#454040;   
 }
 
-
 /* **************
 ****ABOUTME*********
 ************** */
+
 .aboutme{
     background-color:#f3ebeb;
     width: 800px;
     padding: 1.5em;
 }
-
-.header{
- 
-}
-
 
 .nav-list{
     display:flex;
@@ -116,10 +107,8 @@ html {
     margin-top: 2.5em; 
 }
 
-
 .about-myself{
-    margin-top: 5em;
-    
+    margin-top: 5em;   
 }
 
 .bold{
@@ -144,15 +133,14 @@ html {
 }
 
 
-
 .code{
     background-color:#ebdace;
 }
 
-
 /* ********
 ****FOOTER****
 ********* */
+
 footer{
     display: flex;
     justify-content: space-around;
@@ -160,8 +148,6 @@ footer{
     background-color:#969595;
     color: #000000;
     font-weight: 600;
-
-
 }
 
         
