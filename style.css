@@ -6,6 +6,55 @@
      src: url("assets/fonts/Roboto.ttf");
    }
 
-   body{
+body{
+
+    /* прижать к низу footer      display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#454040
+    
+}
+
+.main{
+    display: flex;
+}
+
+.aside{
+    background-color: #c8c7c6;
+    padding: 1.5em;
+}
+
+.contacts h2{
+    text-align: left;
+  
+}
+
+
+.line-grey{
+    height: 1px;
+    width: 100%;
+    background-color:#454040;
+}
+
+.phone, .email, .discord, .linkedin{
+
+    display: flex;
+    padding-left: 0px;
+    list-style-type: none;
+    
+}
+.phone a, .email a, .discord a, .linkedin a{
+    text-decoration: none;
+    color:#454040;
+    padding-left: 5px;
+}
+.phone a:hover, .email a:hover, .discord a:hover, .linkedin a:hover{
+    border-bottom: 1px solid #454040;
+}
+
+
+.aboutme{
+    background-color:#fbfbfb;
 }
